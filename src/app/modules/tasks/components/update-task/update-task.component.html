@@ -1,0 +1,9 @@
+<div style="text-align:center">
+  <form (ngSubmit)="onSubmit()">
+  <input type="text" name="description" required [(ngModel)]="model.description" placeholder="new task">
+  <button>Edit task</button>
+</form>
+
+<button (click)="deleteTask()">Delete Task</button>
+</div>
+

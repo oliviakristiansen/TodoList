@@ -1,0 +1,22 @@
+.tasks {
+  width: 100%;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+.one a {
+  color: black;
+  text-decoration: none;
+}
+.one a :link {
+  text-decoration: none;
+}
+
+.one a :visited {
+  text-decoration: none;
+}
+.one a :active {
+    text-decoration: none;
+}

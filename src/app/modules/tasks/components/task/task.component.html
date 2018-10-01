@@ -1,0 +1,18 @@
+<div style="text-align:center" >
+
+    <ul class="tasks">
+        <li>
+            <span class="one">
+                <a routerLink="/details/{{task.id}}" routerLinkActive="active">
+                    {{task.description}}
+                </a>
+            </span> 
+                ||
+                <span class="two">
+                  <a routerLink="/update/{{task.id}}" routerLinkActive="active">
+                    Update
+                </a>  
+                </span>
+                </li><hr>
+    </ul>
+</div>
